@@ -1,0 +1,157 @@
+label[for=edit-field-category-value] {
+  background: $light;
+  display: block;
+  overflow: hidden;
+  padding: 10px;
+  color: $darkgreen;
+   @include fittext($min-media: 360px, $max-media: 1400px, $min-font-size: 1em, $max-font-size: 1.9em, $media-increment: 50, $font-increment: .1, $ratio: 1, $round: false);
+  text-transform: lowercase;
+  border: 1px solid;
+  cursor: pointer;
+}
+label[for=edit-field-category-value]:hover {
+  background: $darkgreen;
+  color: $light;
+}
+label[for=edit-field-food-type-value] {
+  background: $light;
+  display: block;
+  overflow: hidden;
+  padding: 10px;
+  color: $purple;
+   @include fittext($min-media: 360px, $max-media: 1400px, $min-font-size: 1em, $max-font-size: 1.9em, $media-increment: 50, $font-increment: .1, $ratio: 1, $round: false);
+  text-transform: lowercase;
+  border: 1px solid;
+    cursor: pointer;
+}
+label[for=edit-field-food-type-value]:hover {
+  background: $purple;
+  color: $light;
+}
+
+.page-nutrimost-phase2-recipes, .section-nutrimost-phase4-recipes, .section-nutrimost-beyond-recipes {
+
+  h1 {
+    float:left;
+    margin-right: 2%;
+  }
+}
+
+.views-exposed-form .views-exposed-widget {
+  float: left;
+  padding: 0 .5em 0 0;
+}
+
+#edit-field-category-value-wrapper {
+  .views-widget {
+    position: absolute;
+
+    @include breakpoint(960px, true) {
+      width: 25%;
+    }
+  }
+}
+#edit-field-food-type-value-wrapper {
+  .views-widget {
+    position: absolute;
+    @include breakpoint(960px, true) {
+      width: 25%;
+    }
+  }
+}
+.form-item-field-food-type-value{
+  display:none;
+}
+.form-item-field-category-value {
+  display: none;
+}
+
+.form-item-field-category-value.open {
+  display: block;
+
+  a {
+    border: 1px solid $light;
+    color: $light;
+    background: $darkgreen;
+  }
+  a:hover {
+    border: 1px solid $darkgreen;
+  }
+  .selected {
+    a {
+      background: $light;
+      border: 1px solid $darkgreen;
+      color: $darkgreen;
+    }
+  }
+}
+.form-item-field-food-type-value.open{
+  display:block;
+
+  a {
+    border: 1px solid $light;
+    color: $light;
+    background: $purple;
+  }
+  a:hover {
+    border: 1px solid $purple;
+  }
+  .selected {
+    a {
+      background: $light;
+      border: 1px solid $purple;
+      color: $purple;
+    }
+  }
+}
+
+.view-filters {
+  clear:right;
+
+  a {
+    padding: 10px;
+    display: block;
+    margin-bottom: 2px;
+  }
+
+}
+
+.view-recipes {
+
+  .view-content {
+    @include flexbox();
+    @include flow();
+    @include spacebetween();
+
+    .views-row {
+      clear:both;
+      margin-bottom: 10px;
+      display: inline-block;
+      width: 100%;
+      border-bottom: 1px solid $lightgreen;
+      padding-bottom: 30px;
+
+      @include breakpoint(450px, true) {
+        width: 49%;
+      }
+
+      @include breakpoint($tablet, true){
+        width: 30%;
+      }
+
+      @include breakpoint(1180px, true){
+        width: 24%;
+      }
+
+
+
+      .views-field-title {
+        padding: 10px 0 10px 0 ;
+
+        a {
+          @include fittext($min-media: 360px, $max-media: 1400px, $min-font-size: 1em, $max-font-size: 1.6em, $media-increment: 50, $font-increment: .1, $ratio: 1, $round: false);
+          }
+        }
+      }
+  }
+}

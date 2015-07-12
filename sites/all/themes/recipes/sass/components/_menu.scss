@@ -1,0 +1,54 @@
+#block-menu-block-1 {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.menu-block-1 {
+  display: block;
+  ul.menu {
+
+    @include flexbox();
+    width: 100%;
+
+    li {
+      list-style-image: none;
+      list-style-type: none;
+
+      a {
+        @include fittext(
+        $min-media: 320px,
+        $max-media: 1400px,
+        $min-font-size: 1em,
+        $max-font-size: 2.3em,
+        $media-increment: 60,
+        $font-increment: .1,
+        $ratio: 1,
+        $round: false
+        );
+          color: #ffffff;
+          display: inline-block;
+          margin-right: 2px;
+          padding: 15px 10px;
+          text-align: center;
+          text-transform: uppercase;
+
+      }
+      a.home {
+        background: $lightgreen;
+      }
+      a.phase2 {
+        background: $medgreen;
+      }
+      a.phase4 {
+        background: $darkgreen;
+      }
+      a.beyond {
+        background: $purple;
+      }
+    }
+  }
+}
+.menu {
+  margin-bottom: 10px;
+
+}

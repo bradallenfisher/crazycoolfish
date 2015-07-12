@@ -1,0 +1,37 @@
+.node__content {
+
+  .field--name-field-recipe-image {
+
+    img {
+      display:block;
+      width: 100%;
+    }
+  }
+
+  .field__label {
+    @include fittext($min-media: 360px, $max-media: 1400px, $min-font-size: 1.4em, $max-font-size: 3.6em, $media-increment: 50, $font-increment: .1, $ratio: 1, $round: false);
+    margin-bottom: 20px;
+  }
+  .field--name-field-servings {
+    margin-bottom: 20px;
+  }
+  .field--name-field-servings, .field--name-field-calories-per-serving, .field--name-field-phase {
+    .field__items, .field__label {
+      @include fittext($min-media: 360px, $max-media: 1400px, $min-font-size: 1.1em, $max-font-size: 1.6em, $media-increment: 50, $font-increment: .1, $ratio: 1, $round: false);
+      margin-bottom: 0;
+    }
+  }
+
+  .field--name-field-phase {
+    @include fittext($min-media: 360px, $max-media: 1400px, $min-font-size: 1em, $max-font-size: 1.6em, $media-increment: 50, $font-increment: .1, $ratio: 1, $round: false);
+    background: $purple;
+    color: $light;
+    display: block;
+    margin-bottom: 20px;
+    padding: 8px 10px;
+
+
+  }
+
+
+}

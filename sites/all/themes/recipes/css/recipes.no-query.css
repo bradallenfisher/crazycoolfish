@@ -1,0 +1,1141 @@
+/* line 2, ../sass/variables/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Anton", sans-serif; }
+
+/* line 1, ../sass/base/_layout.scss */
+.page {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 12, ../../../../../../../../../home/baf139/.rvm/gems/ruby-1.9.3-p551@omega.recipes/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+  .page:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+/* line 6, ../sass/base/_layout.scss */
+.content {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 66.26506%;
+  float: left;
+  margin-right: 1.20482%; }
+
+/* line 11, ../sass/base/_layout.scss */
+.side {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 32.53012%;
+  float: right;
+  margin-right: 0; }
+
+/* line 1, ../sass/base/_lists.scss */
+ol {
+  margin-bottom: 20px !important; }
+
+/* line 1, ../sass/base/_media.scss */
+img, media {
+  max-width: 100%; }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../sass/base/_resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* line 26, ../sass/base/_resets.scss */
+input {
+  max-width: 100%; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 30, ../sass/base/_resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 34, ../sass/base/_resets.scss */
+body {
+  line-height: 1; }
+
+/* line 37, ../sass/base/_resets.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 40, ../sass/base/_resets.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 43, ../sass/base/_resets.scss */
+em {
+  font-style: italic; }
+
+/* line 46, ../sass/base/_resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 51, ../sass/base/_resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* apply a natural box layout model to all elements */
+/* line 57, ../sass/base/_resets.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 63, ../sass/base/_resets.scss */
+img, media {
+  max-width: 100%;
+  height: auto; }
+
+/* FlexSlider Resets
+*********************************/
+/* line 70, ../sass/base/_resets.scss */
+.flexslider {
+  margin: 0;
+  border: 0;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none; }
+
+/* Direction Nav */
+/* line 84, ../sass/base/_resets.scss */
+.flex-direction-nav a {
+  height: 60px; }
+
+/* line 88, ../sass/base/_resets.scss */
+#footer .feedzilla-logo .img {
+  background: none !important;
+  cursor: pointer;
+  position: absolute; }
+
+/* line 1, ../sass/base/_typography.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; }
+
+/* line 5, ../sass/base/_typography.scss */
+h1, h2, h3, h4, h5 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px; }
+
+@media screen and (min-width: 360px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 2.4em; } }
+@media screen and (min-width: 410px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 2.5em; } }
+@media screen and (min-width: 460px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 2.6em; } }
+@media screen and (min-width: 510px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 2.7em; } }
+@media screen and (min-width: 560px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 2.8em; } }
+@media screen and (min-width: 610px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 2.9em; } }
+@media screen and (min-width: 660px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 3.0em; } }
+@media screen and (min-width: 710px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 3.1em; } }
+@media screen and (min-width: 760px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 3.2em; } }
+@media screen and (min-width: 810px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 3.3em; } }
+@media screen and (min-width: 860px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 3.4em; } }
+@media screen and (min-width: 910px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 3.5em; } }
+@media screen and (min-width: 960px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 3.6em; } }
+@media screen and (min-width: 1010px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 3.7em; } }
+@media screen and (min-width: 1060px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 3.8em; } }
+@media screen and (min-width: 1110px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 3.9em; } }
+@media screen and (min-width: 1160px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 4.0em; } }
+@media screen and (min-width: 1210px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 4.1em; } }
+@media screen and (min-width: 1260px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 4.2em; } }
+@media screen and (min-width: 1310px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 4.3em; } }
+@media screen and (min-width: 1360px) {
+  /* line 11, ../sass/base/_typography.scss */
+  h1 {
+    font-size: 4.4em; } }
+
+@media screen and (min-width: 360px) {
+  /* line 14, ../sass/base/_typography.scss */
+  h2 {
+    font-size: 2.2em; } }
+@media screen and (min-width: 410px) {
+  /* line 14, ../sass/base/_typography.scss */
+  h2 {
+    font-size: 2.3em; } }
+@media screen and (min-width: 460px) {
+  /* line 14, ../sass/base/_typography.scss */
+  h2 {
+    font-size: 2.4em; } }
+@media screen and (min-width: 510px) {
+  /* line 14, ../sass/base/_typography.scss */
+  h2 {
+    font-size: 2.5em; } }
+@media screen and (min-width: 560px) {
+  /* line 14, ../sass/base/_typography.scss */
+  h2 {
+    font-size: 2.6em; } }
+@media screen and (min-width: 610px) {
+  /* line 14, ../sass/base/_typography.scss */
+  h2 {
+    font-size: 2.7em; } }
+@media screen and (min-width: 660px) {
+  /* line 14, ../sass/base/_typography.scss */
+  h2 {
+    font-size: 2.8em; } }
+@media screen and (min-width: 710px) {
+  /* line 14, ../sass/base/_typography.scss */
+  h2 {
+    font-size: 2.9em; } }
+
+/* line 17, ../sass/base/_typography.scss */
+h2, .views-field-title {
+  text-transform: uppercase; }
+  /* line 19, ../sass/base/_typography.scss */
+  h2 a:link, h2 a:visited, h2 a:active, .views-field-title a:link, .views-field-title a:visited, .views-field-title a:active {
+    color: #444; }
+  /* line 22, ../sass/base/_typography.scss */
+  h2 a:hover, .views-field-title a:hover {
+    color: #9E599E; }
+
+/* line 2, ../sass/components/_ads.scss */
+.view-ads a {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+  @media screen and (min-width: 320px) {
+    /* line 2, ../sass/components/_ads.scss */
+    .view-ads a {
+      font-size: 1em; } }
+  @media screen and (min-width: 370px) {
+    /* line 2, ../sass/components/_ads.scss */
+    .view-ads a {
+      font-size: 1.1em; } }
+  @media screen and (min-width: 420px) {
+    /* line 2, ../sass/components/_ads.scss */
+    .view-ads a {
+      font-size: 1.2em; } }
+  @media screen and (min-width: 470px) {
+    /* line 2, ../sass/components/_ads.scss */
+    .view-ads a {
+      font-size: 1.3em; } }
+  @media screen and (min-width: 520px) {
+    /* line 2, ../sass/components/_ads.scss */
+    .view-ads a {
+      font-size: 1.4em; } }
+  @media screen and (min-width: 570px) {
+    /* line 2, ../sass/components/_ads.scss */
+    .view-ads a {
+      font-size: 1.5em; } }
+  @media screen and (min-width: 620px) {
+    /* line 2, ../sass/components/_ads.scss */
+    .view-ads a {
+      font-size: 1.6em; } }
+  @media screen and (min-width: 670px) {
+    /* line 2, ../sass/components/_ads.scss */
+    .view-ads a {
+      font-size: 1.7em; } }
+  @media screen and (min-width: 720px) {
+    /* line 2, ../sass/components/_ads.scss */
+    .view-ads a {
+      font-size: 1.8em; } }
+  @media screen and (min-width: 770px) {
+    /* line 2, ../sass/components/_ads.scss */
+    .view-ads a {
+      font-size: 1.9em; } }
+  /* line 8, ../sass/components/_ads.scss */
+  .view-ads a:link {
+    color: #9E599E; }
+  /* line 11, ../sass/components/_ads.scss */
+  .view-ads a:visited {
+    color: #9E599E; }
+  /* line 14, ../sass/components/_ads.scss */
+  .view-ads a:hover {
+    color: #98AE00; }
+  /* line 18, ../sass/components/_ads.scss */
+  .view-ads a div {
+    padding: 10px; }
+  /* line 21, ../sass/components/_ads.scss */
+  .view-ads a img {
+    padding: 5px; }
+
+/* line 27, ../sass/components/_ads.scss */
+.block--block-11 {
+  margin-bottom: 10px; }
+
+/* line 2, ../sass/components/_blog.scss */
+.view-blog .views-field-title {
+  margin: 20px 0; }
+/* line 5, ../sass/components/_blog.scss */
+.view-blog .views-field-field-blog-image {
+  text-align: center; }
+/* line 8, ../sass/components/_blog.scss */
+.view-blog .views-field-body {
+  padding: 30px; }
+
+/* line 1, ../sass/components/_elements.scss */
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+/* unvisited link */
+/* line 6, ../sass/components/_elements.scss */
+a:link {
+  color: #9E599E; }
+
+/* visited link */
+/* line 11, ../sass/components/_elements.scss */
+a:visited {
+  color: #9E599E; }
+
+/* mouse over link */
+/* line 16, ../sass/components/_elements.scss */
+a:hover {
+  color: #678F00; }
+
+/* selected link */
+/* line 21, ../sass/components/_elements.scss */
+a:active {
+  color: #9E599E; }
+
+/* line 25, ../sass/components/_elements.scss */
+a.open, a.close {
+  font-size: 1.6em;
+  display: block;
+  padding: 10px;
+  margin: 20px 0;
+  color: #9E599E; }
+
+/* line 33, ../sass/components/_elements.scss */
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: black; }
+
+/* line 39, ../sass/components/_elements.scss */
+.main-nav {
+  margin-bottom: 30px; }
+  /* line 43, ../sass/components/_elements.scss */
+  .main-nav .menu-button {
+    cursor: pointer;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6em;
+    color: #000;
+    margin: 0;
+    text-align: right;
+    padding: 10px;
+    display: none; }
+  /* line 58, ../sass/components/_elements.scss */
+  .main-nav ul.menu {
+    display: none;
+    border-top: 1px solid #666666;
+    display: block; }
+    /* line 65, ../sass/components/_elements.scss */
+    .main-nav ul.menu li {
+      list-style-type: none;
+      list-style-image: none; }
+      /* line 70, ../sass/components/_elements.scss */
+      .main-nav ul.menu li ul li {
+        padding-left: 20px;
+        font-size: 1em; }
+        /* line 74, ../sass/components/_elements.scss */
+        .main-nav ul.menu li ul li a {
+          color: #999999; }
+      /* line 81, ../sass/components/_elements.scss */
+      .main-nav ul.menu li a {
+        display: block;
+        padding: 20px 10px;
+        border-bottom: 1px solid #9E599E; }
+  /* line 88, ../sass/components/_elements.scss */
+  .main-nav ul.menu.open {
+    border-top: 1px solid #666666;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    background: #ffffff;
+    display: block; }
+
+/* line 97, ../sass/components/_elements.scss */
+.pager {
+  padding: 10px;
+  margin: 40px 0px; }
+
+/* line 115, ../sass/components/_elements.scss */
+#block-block-4 {
+  margin-top: 50px; }
+
+/* line 118, ../sass/components/_elements.scss */
+.content, .side {
+  padding: 20px; }
+
+/* line 122, ../sass/components/_elements.scss */
+#block-block-1 h2 {
+  margin: 20px 0; }
+
+/* line 126, ../sass/components/_elements.scss */
+.a2a_kit {
+  margin: 20px 0;
+  display: block; }
+
+/* line 130, ../sass/components/_elements.scss */
+ol {
+  list-style: decimal;
+  list-style-position: inside; }
+  /* line 134, ../sass/components/_elements.scss */
+  ol li {
+    padding: 10px;
+    font-size: 1.2em; }
+
+/* line 140, ../sass/components/_elements.scss */
+.l-region--side .block {
+  margin-bottom: 50px; }
+
+/* line 144, ../sass/components/_elements.scss */
+.footer {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 300px; }
+
+/* line 152, ../sass/components/_elements.scss */
+.field--name-body {
+  padding: 20px; }
+
+/* line 1, ../sass/components/_menu.scss */
+#block-menu-block-1 {
+  margin-bottom: 10px;
+  overflow: hidden; }
+
+/* line 6, ../sass/components/_menu.scss */
+.menu-block-1 {
+  display: block; }
+  /* line 8, ../sass/components/_menu.scss */
+  .menu-block-1 ul.menu {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%; }
+    /* line 13, ../sass/components/_menu.scss */
+    .menu-block-1 ul.menu li {
+      list-style-image: none;
+      list-style-type: none; }
+      /* line 17, ../sass/components/_menu.scss */
+      .menu-block-1 ul.menu li a {
+        color: #ffffff;
+        display: inline-block;
+        margin-right: 2px;
+        padding: 15px 10px;
+        text-align: center;
+        text-transform: uppercase; }
+        @media screen and (min-width: 320px) {
+          /* line 17, ../sass/components/_menu.scss */
+          .menu-block-1 ul.menu li a {
+            font-size: 1em; } }
+        @media screen and (min-width: 380px) {
+          /* line 17, ../sass/components/_menu.scss */
+          .menu-block-1 ul.menu li a {
+            font-size: 1.1em; } }
+        @media screen and (min-width: 440px) {
+          /* line 17, ../sass/components/_menu.scss */
+          .menu-block-1 ul.menu li a {
+            font-size: 1.2em; } }
+        @media screen and (min-width: 500px) {
+          /* line 17, ../sass/components/_menu.scss */
+          .menu-block-1 ul.menu li a {
+            font-size: 1.3em; } }
+        @media screen and (min-width: 560px) {
+          /* line 17, ../sass/components/_menu.scss */
+          .menu-block-1 ul.menu li a {
+            font-size: 1.4em; } }
+        @media screen and (min-width: 620px) {
+          /* line 17, ../sass/components/_menu.scss */
+          .menu-block-1 ul.menu li a {
+            font-size: 1.5em; } }
+        @media screen and (min-width: 680px) {
+          /* line 17, ../sass/components/_menu.scss */
+          .menu-block-1 ul.menu li a {
+            font-size: 1.6em; } }
+        @media screen and (min-width: 740px) {
+          /* line 17, ../sass/components/_menu.scss */
+          .menu-block-1 ul.menu li a {
+            font-size: 1.7em; } }
+        @media screen and (min-width: 800px) {
+          /* line 17, ../sass/components/_menu.scss */
+          .menu-block-1 ul.menu li a {
+            font-size: 1.8em; } }
+        @media screen and (min-width: 860px) {
+          /* line 17, ../sass/components/_menu.scss */
+          .menu-block-1 ul.menu li a {
+            font-size: 1.9em; } }
+        @media screen and (min-width: 920px) {
+          /* line 17, ../sass/components/_menu.scss */
+          .menu-block-1 ul.menu li a {
+            font-size: 2.0em; } }
+        @media screen and (min-width: 980px) {
+          /* line 17, ../sass/components/_menu.scss */
+          .menu-block-1 ul.menu li a {
+            font-size: 2.1em; } }
+        @media screen and (min-width: 1040px) {
+          /* line 17, ../sass/components/_menu.scss */
+          .menu-block-1 ul.menu li a {
+            font-size: 2.2em; } }
+      /* line 36, ../sass/components/_menu.scss */
+      .menu-block-1 ul.menu li a.home {
+        background: #BFD01E; }
+      /* line 39, ../sass/components/_menu.scss */
+      .menu-block-1 ul.menu li a.phase2 {
+        background: #98AE00; }
+      /* line 42, ../sass/components/_menu.scss */
+      .menu-block-1 ul.menu li a.phase4 {
+        background: #678F00; }
+      /* line 45, ../sass/components/_menu.scss */
+      .menu-block-1 ul.menu li a.beyond {
+        background: #9E599E; }
+
+/* line 51, ../sass/components/_menu.scss */
+.menu {
+  margin-bottom: 10px; }
+
+/* line 1, ../sass/components/_navigation.scss */
+h6 {
+  font-size: 2em; }
+
+/* line 5, ../sass/components/_node.scss */
+.node__content .field--name-field-recipe-image img {
+  display: block;
+  width: 100%; }
+/* line 11, ../sass/components/_node.scss */
+.node__content .field__label {
+  margin-bottom: 20px; }
+  @media screen and (min-width: 360px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 1.4em; } }
+  @media screen and (min-width: 410px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 1.5em; } }
+  @media screen and (min-width: 460px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 1.6em; } }
+  @media screen and (min-width: 510px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 1.7em; } }
+  @media screen and (min-width: 560px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 1.8em; } }
+  @media screen and (min-width: 610px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 1.9em; } }
+  @media screen and (min-width: 660px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 2.0em; } }
+  @media screen and (min-width: 710px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 2.1em; } }
+  @media screen and (min-width: 760px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 2.2em; } }
+  @media screen and (min-width: 810px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 2.3em; } }
+  @media screen and (min-width: 860px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 2.4em; } }
+  @media screen and (min-width: 910px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 2.5em; } }
+  @media screen and (min-width: 960px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 2.6em; } }
+  @media screen and (min-width: 1010px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 2.7em; } }
+  @media screen and (min-width: 1060px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 2.8em; } }
+  @media screen and (min-width: 1110px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 2.9em; } }
+  @media screen and (min-width: 1160px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 3.0em; } }
+  @media screen and (min-width: 1210px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 3.1em; } }
+  @media screen and (min-width: 1260px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 3.2em; } }
+  @media screen and (min-width: 1310px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 3.3em; } }
+  @media screen and (min-width: 1360px) {
+    /* line 11, ../sass/components/_node.scss */
+    .node__content .field__label {
+      font-size: 3.4em; } }
+/* line 15, ../sass/components/_node.scss */
+.node__content .field--name-field-servings {
+  margin-bottom: 20px; }
+/* line 19, ../sass/components/_node.scss */
+.node__content .field--name-field-servings .field__items, .node__content .field--name-field-servings .field__label, .node__content .field--name-field-calories-per-serving .field__items, .node__content .field--name-field-calories-per-serving .field__label, .node__content .field--name-field-phase .field__items, .node__content .field--name-field-phase .field__label {
+  margin-bottom: 0; }
+  @media screen and (min-width: 360px) {
+    /* line 19, ../sass/components/_node.scss */
+    .node__content .field--name-field-servings .field__items, .node__content .field--name-field-servings .field__label, .node__content .field--name-field-calories-per-serving .field__items, .node__content .field--name-field-calories-per-serving .field__label, .node__content .field--name-field-phase .field__items, .node__content .field--name-field-phase .field__label {
+      font-size: 1.1em; } }
+  @media screen and (min-width: 410px) {
+    /* line 19, ../sass/components/_node.scss */
+    .node__content .field--name-field-servings .field__items, .node__content .field--name-field-servings .field__label, .node__content .field--name-field-calories-per-serving .field__items, .node__content .field--name-field-calories-per-serving .field__label, .node__content .field--name-field-phase .field__items, .node__content .field--name-field-phase .field__label {
+      font-size: 1.2em; } }
+  @media screen and (min-width: 460px) {
+    /* line 19, ../sass/components/_node.scss */
+    .node__content .field--name-field-servings .field__items, .node__content .field--name-field-servings .field__label, .node__content .field--name-field-calories-per-serving .field__items, .node__content .field--name-field-calories-per-serving .field__label, .node__content .field--name-field-phase .field__items, .node__content .field--name-field-phase .field__label {
+      font-size: 1.3em; } }
+  @media screen and (min-width: 510px) {
+    /* line 19, ../sass/components/_node.scss */
+    .node__content .field--name-field-servings .field__items, .node__content .field--name-field-servings .field__label, .node__content .field--name-field-calories-per-serving .field__items, .node__content .field--name-field-calories-per-serving .field__label, .node__content .field--name-field-phase .field__items, .node__content .field--name-field-phase .field__label {
+      font-size: 1.4em; } }
+  @media screen and (min-width: 560px) {
+    /* line 19, ../sass/components/_node.scss */
+    .node__content .field--name-field-servings .field__items, .node__content .field--name-field-servings .field__label, .node__content .field--name-field-calories-per-serving .field__items, .node__content .field--name-field-calories-per-serving .field__label, .node__content .field--name-field-phase .field__items, .node__content .field--name-field-phase .field__label {
+      font-size: 1.5em; } }
+/* line 25, ../sass/components/_node.scss */
+.node__content .field--name-field-phase {
+  background: #9E599E;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 20px;
+  padding: 8px 10px; }
+  @media screen and (min-width: 360px) {
+    /* line 25, ../sass/components/_node.scss */
+    .node__content .field--name-field-phase {
+      font-size: 1em; } }
+  @media screen and (min-width: 410px) {
+    /* line 25, ../sass/components/_node.scss */
+    .node__content .field--name-field-phase {
+      font-size: 1.1em; } }
+  @media screen and (min-width: 460px) {
+    /* line 25, ../sass/components/_node.scss */
+    .node__content .field--name-field-phase {
+      font-size: 1.2em; } }
+  @media screen and (min-width: 510px) {
+    /* line 25, ../sass/components/_node.scss */
+    .node__content .field--name-field-phase {
+      font-size: 1.3em; } }
+  @media screen and (min-width: 560px) {
+    /* line 25, ../sass/components/_node.scss */
+    .node__content .field--name-field-phase {
+      font-size: 1.4em; } }
+  @media screen and (min-width: 610px) {
+    /* line 25, ../sass/components/_node.scss */
+    .node__content .field--name-field-phase {
+      font-size: 1.5em; } }
+
+/* line 1, ../sass/components/_recipes.scss */
+label[for=edit-field-category-value] {
+  background: #ffffff;
+  display: block;
+  overflow: hidden;
+  padding: 10px;
+  color: #678F00;
+  text-transform: lowercase;
+  border: 1px solid;
+  cursor: pointer; }
+  @media screen and (min-width: 360px) {
+    /* line 1, ../sass/components/_recipes.scss */
+    label[for=edit-field-category-value] {
+      font-size: 1em; } }
+  @media screen and (min-width: 410px) {
+    /* line 1, ../sass/components/_recipes.scss */
+    label[for=edit-field-category-value] {
+      font-size: 1.1em; } }
+  @media screen and (min-width: 460px) {
+    /* line 1, ../sass/components/_recipes.scss */
+    label[for=edit-field-category-value] {
+      font-size: 1.2em; } }
+  @media screen and (min-width: 510px) {
+    /* line 1, ../sass/components/_recipes.scss */
+    label[for=edit-field-category-value] {
+      font-size: 1.3em; } }
+  @media screen and (min-width: 560px) {
+    /* line 1, ../sass/components/_recipes.scss */
+    label[for=edit-field-category-value] {
+      font-size: 1.4em; } }
+  @media screen and (min-width: 610px) {
+    /* line 1, ../sass/components/_recipes.scss */
+    label[for=edit-field-category-value] {
+      font-size: 1.5em; } }
+  @media screen and (min-width: 660px) {
+    /* line 1, ../sass/components/_recipes.scss */
+    label[for=edit-field-category-value] {
+      font-size: 1.6em; } }
+  @media screen and (min-width: 710px) {
+    /* line 1, ../sass/components/_recipes.scss */
+    label[for=edit-field-category-value] {
+      font-size: 1.7em; } }
+  @media screen and (min-width: 760px) {
+    /* line 1, ../sass/components/_recipes.scss */
+    label[for=edit-field-category-value] {
+      font-size: 1.8em; } }
+
+/* line 12, ../sass/components/_recipes.scss */
+label[for=edit-field-category-value]:hover {
+  background: #678F00;
+  color: #ffffff; }
+
+/* line 16, ../sass/components/_recipes.scss */
+label[for=edit-field-food-type-value] {
+  background: #ffffff;
+  display: block;
+  overflow: hidden;
+  padding: 10px;
+  color: #9E599E;
+  text-transform: lowercase;
+  border: 1px solid;
+  cursor: pointer; }
+  @media screen and (min-width: 360px) {
+    /* line 16, ../sass/components/_recipes.scss */
+    label[for=edit-field-food-type-value] {
+      font-size: 1em; } }
+  @media screen and (min-width: 410px) {
+    /* line 16, ../sass/components/_recipes.scss */
+    label[for=edit-field-food-type-value] {
+      font-size: 1.1em; } }
+  @media screen and (min-width: 460px) {
+    /* line 16, ../sass/components/_recipes.scss */
+    label[for=edit-field-food-type-value] {
+      font-size: 1.2em; } }
+  @media screen and (min-width: 510px) {
+    /* line 16, ../sass/components/_recipes.scss */
+    label[for=edit-field-food-type-value] {
+      font-size: 1.3em; } }
+  @media screen and (min-width: 560px) {
+    /* line 16, ../sass/components/_recipes.scss */
+    label[for=edit-field-food-type-value] {
+      font-size: 1.4em; } }
+  @media screen and (min-width: 610px) {
+    /* line 16, ../sass/components/_recipes.scss */
+    label[for=edit-field-food-type-value] {
+      font-size: 1.5em; } }
+  @media screen and (min-width: 660px) {
+    /* line 16, ../sass/components/_recipes.scss */
+    label[for=edit-field-food-type-value] {
+      font-size: 1.6em; } }
+  @media screen and (min-width: 710px) {
+    /* line 16, ../sass/components/_recipes.scss */
+    label[for=edit-field-food-type-value] {
+      font-size: 1.7em; } }
+  @media screen and (min-width: 760px) {
+    /* line 16, ../sass/components/_recipes.scss */
+    label[for=edit-field-food-type-value] {
+      font-size: 1.8em; } }
+
+/* line 27, ../sass/components/_recipes.scss */
+label[for=edit-field-food-type-value]:hover {
+  background: #9E599E;
+  color: #ffffff; }
+
+/* line 34, ../sass/components/_recipes.scss */
+.page-nutrimost-phase2-recipes h1, .section-nutrimost-phase4-recipes h1, .section-nutrimost-beyond-recipes h1 {
+  float: left;
+  margin-right: 2%; }
+
+/* line 40, ../sass/components/_recipes.scss */
+.views-exposed-form .views-exposed-widget {
+  float: left;
+  padding: 0 .5em 0 0; }
+
+/* line 46, ../sass/components/_recipes.scss */
+#edit-field-category-value-wrapper .views-widget {
+  position: absolute;
+  width: 25%; }
+
+/* line 55, ../sass/components/_recipes.scss */
+#edit-field-food-type-value-wrapper .views-widget {
+  position: absolute;
+  width: 25%; }
+
+/* line 62, ../sass/components/_recipes.scss */
+.form-item-field-food-type-value {
+  display: none; }
+
+/* line 65, ../sass/components/_recipes.scss */
+.form-item-field-category-value {
+  display: none; }
+
+/* line 69, ../sass/components/_recipes.scss */
+.form-item-field-category-value.open {
+  display: block; }
+  /* line 72, ../sass/components/_recipes.scss */
+  .form-item-field-category-value.open a {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background: #678F00; }
+  /* line 77, ../sass/components/_recipes.scss */
+  .form-item-field-category-value.open a:hover {
+    border: 1px solid #678F00; }
+  /* line 81, ../sass/components/_recipes.scss */
+  .form-item-field-category-value.open .selected a {
+    background: #ffffff;
+    border: 1px solid #678F00;
+    color: #678F00; }
+
+/* line 88, ../sass/components/_recipes.scss */
+.form-item-field-food-type-value.open {
+  display: block; }
+  /* line 91, ../sass/components/_recipes.scss */
+  .form-item-field-food-type-value.open a {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background: #9E599E; }
+  /* line 96, ../sass/components/_recipes.scss */
+  .form-item-field-food-type-value.open a:hover {
+    border: 1px solid #9E599E; }
+  /* line 100, ../sass/components/_recipes.scss */
+  .form-item-field-food-type-value.open .selected a {
+    background: #ffffff;
+    border: 1px solid #9E599E;
+    color: #9E599E; }
+
+/* line 108, ../sass/components/_recipes.scss */
+.view-filters {
+  clear: right; }
+  /* line 111, ../sass/components/_recipes.scss */
+  .view-filters a {
+    padding: 10px;
+    display: block;
+    margin-bottom: 2px; }
+
+/* line 121, ../sass/components/_recipes.scss */
+.view-recipes .view-content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: wrap;
+  -moz-flex-flow: wrap;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between; }
+  /* line 126, ../sass/components/_recipes.scss */
+  .view-recipes .view-content .views-row {
+    clear: both;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #BFD01E;
+    padding-bottom: 30px;
+    width: 49%;
+    width: 30%;
+    width: 24%; }
+    /* line 148, ../sass/components/_recipes.scss */
+    .view-recipes .view-content .views-row .views-field-title {
+      padding: 10px 0 10px 0; }
+      @media screen and (min-width: 360px) {
+        /* line 151, ../sass/components/_recipes.scss */
+        .view-recipes .view-content .views-row .views-field-title a {
+          font-size: 1em; } }
+      @media screen and (min-width: 410px) {
+        /* line 151, ../sass/components/_recipes.scss */
+        .view-recipes .view-content .views-row .views-field-title a {
+          font-size: 1.1em; } }
+      @media screen and (min-width: 460px) {
+        /* line 151, ../sass/components/_recipes.scss */
+        .view-recipes .view-content .views-row .views-field-title a {
+          font-size: 1.2em; } }
+      @media screen and (min-width: 510px) {
+        /* line 151, ../sass/components/_recipes.scss */
+        .view-recipes .view-content .views-row .views-field-title a {
+          font-size: 1.3em; } }
+      @media screen and (min-width: 560px) {
+        /* line 151, ../sass/components/_recipes.scss */
+        .view-recipes .view-content .views-row .views-field-title a {
+          font-size: 1.4em; } }
+      @media screen and (min-width: 610px) {
+        /* line 151, ../sass/components/_recipes.scss */
+        .view-recipes .view-content .views-row .views-field-title a {
+          font-size: 1.5em; } }
+
+/* line 1, ../sass/components/_search.scss */
+input#edit-search-block-form--2 {
+  width: 64%;
+  padding: 10px; }
+
+/* line 5, ../sass/components/_search.scss */
+input#edit-submit {
+  background: #9E599E;
+  border: 2px solid #9E599E;
+  color: #ffffff;
+  float: right;
+  padding: 10px;
+  width: 35%; }
+
+/* line 13, ../sass/components/_search.scss */
+html.js .form-autocomplete {
+  background-image: none;
+  background-repeat: no-repeat; }
+
+/* line 18, ../sass/components/_search.scss */
+.ui-theme-basic-green.ui-autocomplete-input {
+  background-image: none;
+  background-repeat: no-repeat; }
+
+/* line 23, ../sass/components/_search.scss */
+.ui-theme-basic-green.ui-autocomplete-loading {
+  background-image: none;
+  background-repeat: no-repeat; }
+
+/* Static View-only Star Version */
+/* line 2, ../sass/components/_vote.scss */
+.fivestar-hearts div.fivestar-widget-static .star {
+  width: 50px;
+  height: 50px;
+  background: url(../images/heart.png) no-repeat 0 0px; }
+
+/* line 8, ../sass/components/_vote.scss */
+form.fivestar-widget div.description {
+  margin: 20px;
+  display: block;
+  float: right; }
+
+/* line 13, ../sass/components/_vote.scss */
+.fivestar-hearts div.fivestar-widget-static .star span.on {
+  background: url(../images/heart.png) no-repeat 0 -120px; }
+
+/* line 17, ../sass/components/_vote.scss */
+.fivestar-hearts div.fivestar-widget-static .star span.off {
+  background: url(../images/heart.png) no-repeat 0 0; }
+
+/* Javascript Star Version */
+/* line 22, ../sass/components/_vote.scss */
+.fivestar-hearts div.fivestar-widget .cancel,
+.fivestar-hearts div.fivestar-widget .star {
+  width: 50px;
+  height: 50px; }
+
+/* line 27, ../sass/components/_vote.scss */
+.fivestar-hearts div.fivestar-widget .cancel,
+.fivestar-hearts div.fivestar-widget .cancel a {
+  background: none; }
+
+/* line 32, ../sass/components/_vote.scss */
+.fivestar-hearts div.fivestar-widget .star,
+.fivestar-hearts div.fivestar-widget .star a {
+  background: url(../images/heart.png) no-repeat 0 0; }
+
+/* line 37, ../sass/components/_vote.scss */
+.fivestar-hearts div.fivestar-widget div.on a {
+  background-position: 0 -60px; }
+
+/* line 40, ../sass/components/_vote.scss */
+.fivestar-hearts div.fivestar-widget div.hover a,
+.fivestar-hearts div.rating div a:hover {
+  background-position: 0 -120px; }
+
+/* line 1, ../sass/components/sitewide/_header.scss */
+.header {
+  color: #9E599E;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400; }
+  @media screen and (min-width: 360px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 2.6em; } }
+  @media screen and (min-width: 410px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 2.7em; } }
+  @media screen and (min-width: 460px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 2.8em; } }
+  @media screen and (min-width: 510px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 2.9em; } }
+  @media screen and (min-width: 560px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 3.0em; } }
+  @media screen and (min-width: 610px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 3.1em; } }
+  @media screen and (min-width: 660px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 3.2em; } }
+  @media screen and (min-width: 710px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 3.3em; } }
+  @media screen and (min-width: 760px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 3.4em; } }
+  @media screen and (min-width: 810px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 3.5em; } }
+  @media screen and (min-width: 860px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 3.6em; } }
+  @media screen and (min-width: 910px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 3.7em; } }
+  @media screen and (min-width: 960px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 3.8em; } }
+  @media screen and (min-width: 1010px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 3.9em; } }
+  @media screen and (min-width: 1060px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 4.0em; } }
+  @media screen and (min-width: 1110px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 4.1em; } }
+  @media screen and (min-width: 1160px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 4.2em; } }
+  @media screen and (min-width: 1210px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 4.3em; } }
+  @media screen and (min-width: 1260px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 4.4em; } }
+  @media screen and (min-width: 1310px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 4.5em; } }
+  @media screen and (min-width: 1360px) {
+    /* line 7, ../sass/components/sitewide/_header.scss */
+    .header a {
+      font-size: 4.6em; } }
+  /* line 10, ../sass/components/sitewide/_header.scss */
+  .header span {
+    color: #678F00; }
+
+/*# sourceMappingURL=recipes.no-query.css.map */
