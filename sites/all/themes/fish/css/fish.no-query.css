@@ -1,0 +1,1268 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Anton", sans-serif;
+}
+
+.page {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.content {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 66.26506%;
+  float: left;
+  margin-right: 1.20482%;
+}
+
+.side {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 32.53012%;
+  float: right;
+  margin-right: 0;
+}
+
+ol {
+  margin-bottom: 20px !important;
+}
+
+img, media {
+  max-width: 100%;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+input {
+  max-width: 100%;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+em {
+  font-style: italic;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img, media {
+  max-width: 100%;
+  height: auto;
+}
+
+/* FlexSlider Resets
+*********************************/
+.flexslider {
+  margin: 0;
+  border: 0;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+
+/* Direction Nav */
+.flex-direction-nav a {
+  height: 60px;
+}
+
+#footer .feedzilla-logo .img {
+  background: none !important;
+  cursor: pointer;
+  position: absolute;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 360px) {
+  h1 {
+    font-size: 2.4em;
+  }
+}
+@media screen and (min-width: 410px) {
+  h1 {
+    font-size: 2.5em;
+  }
+}
+@media screen and (min-width: 460px) {
+  h1 {
+    font-size: 2.6em;
+  }
+}
+@media screen and (min-width: 510px) {
+  h1 {
+    font-size: 2.7em;
+  }
+}
+@media screen and (min-width: 560px) {
+  h1 {
+    font-size: 2.8em;
+  }
+}
+@media screen and (min-width: 610px) {
+  h1 {
+    font-size: 2.9em;
+  }
+}
+@media screen and (min-width: 660px) {
+  h1 {
+    font-size: 3.0em;
+  }
+}
+@media screen and (min-width: 710px) {
+  h1 {
+    font-size: 3.1em;
+  }
+}
+@media screen and (min-width: 760px) {
+  h1 {
+    font-size: 3.2em;
+  }
+}
+@media screen and (min-width: 810px) {
+  h1 {
+    font-size: 3.3em;
+  }
+}
+@media screen and (min-width: 860px) {
+  h1 {
+    font-size: 3.4em;
+  }
+}
+@media screen and (min-width: 910px) {
+  h1 {
+    font-size: 3.5em;
+  }
+}
+@media screen and (min-width: 960px) {
+  h1 {
+    font-size: 3.6em;
+  }
+}
+@media screen and (min-width: 1010px) {
+  h1 {
+    font-size: 3.7em;
+  }
+}
+@media screen and (min-width: 1060px) {
+  h1 {
+    font-size: 3.8em;
+  }
+}
+@media screen and (min-width: 1110px) {
+  h1 {
+    font-size: 3.9em;
+  }
+}
+@media screen and (min-width: 1160px) {
+  h1 {
+    font-size: 4.0em;
+  }
+}
+@media screen and (min-width: 1210px) {
+  h1 {
+    font-size: 4.1em;
+  }
+}
+@media screen and (min-width: 1260px) {
+  h1 {
+    font-size: 4.2em;
+  }
+}
+@media screen and (min-width: 1310px) {
+  h1 {
+    font-size: 4.3em;
+  }
+}
+@media screen and (min-width: 1360px) {
+  h1 {
+    font-size: 4.4em;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  h2 {
+    font-size: 2.2em;
+  }
+}
+@media screen and (min-width: 410px) {
+  h2 {
+    font-size: 2.3em;
+  }
+}
+@media screen and (min-width: 460px) {
+  h2 {
+    font-size: 2.4em;
+  }
+}
+@media screen and (min-width: 510px) {
+  h2 {
+    font-size: 2.5em;
+  }
+}
+@media screen and (min-width: 560px) {
+  h2 {
+    font-size: 2.6em;
+  }
+}
+@media screen and (min-width: 610px) {
+  h2 {
+    font-size: 2.7em;
+  }
+}
+@media screen and (min-width: 660px) {
+  h2 {
+    font-size: 2.8em;
+  }
+}
+@media screen and (min-width: 710px) {
+  h2 {
+    font-size: 2.9em;
+  }
+}
+
+h2, .views-field-title {
+  text-transform: uppercase;
+}
+h2 a:link, h2 a:visited, h2 a:active, .views-field-title a:link, .views-field-title a:visited, .views-field-title a:active {
+  color: #444;
+}
+h2 a:hover, .views-field-title a:hover {
+  color: #9E599E;
+}
+
+.view-ads a {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+@media screen and (min-width: 320px) {
+  .view-ads a {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 370px) {
+  .view-ads a {
+    font-size: 1.1em;
+  }
+}
+@media screen and (min-width: 420px) {
+  .view-ads a {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 470px) {
+  .view-ads a {
+    font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 520px) {
+  .view-ads a {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 570px) {
+  .view-ads a {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 620px) {
+  .view-ads a {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 670px) {
+  .view-ads a {
+    font-size: 1.7em;
+  }
+}
+@media screen and (min-width: 720px) {
+  .view-ads a {
+    font-size: 1.8em;
+  }
+}
+@media screen and (min-width: 770px) {
+  .view-ads a {
+    font-size: 1.9em;
+  }
+}
+.view-ads a:link {
+  color: #9E599E;
+}
+.view-ads a:visited {
+  color: #9E599E;
+}
+.view-ads a:hover {
+  color: #98AE00;
+}
+.view-ads a div {
+  padding: 10px;
+}
+.view-ads a img {
+  padding: 5px;
+}
+
+.block--block-11 {
+  margin-bottom: 10px;
+}
+
+.view-blog .views-field-title {
+  margin: 20px 0;
+}
+.view-blog .views-field-field-blog-image {
+  text-align: center;
+}
+.view-blog .views-field-body {
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* unvisited link */
+a:link {
+  color: #9E599E;
+}
+
+/* visited link */
+a:visited {
+  color: #9E599E;
+}
+
+/* mouse over link */
+a:hover {
+  color: #678F00;
+}
+
+/* selected link */
+a:active {
+  color: #9E599E;
+}
+
+a.open, a.close {
+  font-size: 1.6em;
+  display: block;
+  padding: 10px;
+  margin: 20px 0;
+  color: #9E599E;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: black;
+}
+
+.main-nav {
+  margin-bottom: 30px;
+}
+.main-nav .menu-button {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6em;
+  color: #000;
+  margin: 0;
+  text-align: right;
+  padding: 10px;
+  display: none;
+}
+.main-nav ul.menu {
+  display: none;
+  border-top: 1px solid #666666;
+  display: block;
+}
+.main-nav ul.menu li {
+  list-style-type: none;
+  list-style-image: none;
+}
+.main-nav ul.menu li ul li {
+  padding-left: 20px;
+  font-size: 1em;
+}
+.main-nav ul.menu li ul li a {
+  color: #999999;
+}
+.main-nav ul.menu li a {
+  display: block;
+  padding: 20px 10px;
+  border-bottom: 1px solid #9E599E;
+}
+.main-nav ul.menu.open {
+  border-top: 1px solid #666666;
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  background: #ffffff;
+  display: block;
+}
+
+.pager {
+  padding: 10px;
+  margin: 40px 0px;
+}
+
+#block-block-4 {
+  margin-top: 50px;
+}
+
+.content, .side {
+  padding: 20px;
+}
+
+#block-block-1 h2 {
+  margin: 20px 0;
+}
+
+.a2a_kit {
+  margin: 20px 0;
+  display: block;
+}
+
+ol {
+  list-style: decimal;
+  list-style-position: inside;
+}
+ol li {
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.l-region--side .block {
+  margin-bottom: 50px;
+}
+
+.footer {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+}
+
+.field--name-body {
+  padding: 20px;
+}
+
+#block-menu-block-1 {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.menu-block-1 {
+  display: block;
+}
+.menu-block-1 ul.menu {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+}
+.menu-block-1 ul.menu li {
+  list-style-image: none;
+  list-style-type: none;
+}
+.menu-block-1 ul.menu li a {
+  color: #ffffff;
+  display: inline-block;
+  margin-right: 2px;
+  padding: 15px 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 320px) {
+  .menu-block-1 ul.menu li a {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 380px) {
+  .menu-block-1 ul.menu li a {
+    font-size: 1.1em;
+  }
+}
+@media screen and (min-width: 440px) {
+  .menu-block-1 ul.menu li a {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 500px) {
+  .menu-block-1 ul.menu li a {
+    font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 560px) {
+  .menu-block-1 ul.menu li a {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 620px) {
+  .menu-block-1 ul.menu li a {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 680px) {
+  .menu-block-1 ul.menu li a {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 740px) {
+  .menu-block-1 ul.menu li a {
+    font-size: 1.7em;
+  }
+}
+@media screen and (min-width: 800px) {
+  .menu-block-1 ul.menu li a {
+    font-size: 1.8em;
+  }
+}
+@media screen and (min-width: 860px) {
+  .menu-block-1 ul.menu li a {
+    font-size: 1.9em;
+  }
+}
+@media screen and (min-width: 920px) {
+  .menu-block-1 ul.menu li a {
+    font-size: 2.0em;
+  }
+}
+@media screen and (min-width: 980px) {
+  .menu-block-1 ul.menu li a {
+    font-size: 2.1em;
+  }
+}
+@media screen and (min-width: 1040px) {
+  .menu-block-1 ul.menu li a {
+    font-size: 2.2em;
+  }
+}
+.menu-block-1 ul.menu li a.home {
+  background: #BFD01E;
+}
+.menu-block-1 ul.menu li a.phase2 {
+  background: #98AE00;
+}
+.menu-block-1 ul.menu li a.phase4 {
+  background: #678F00;
+}
+.menu-block-1 ul.menu li a.beyond {
+  background: #9E599E;
+}
+
+.menu {
+  margin-bottom: 10px;
+}
+
+h6 {
+  font-size: 2em;
+}
+
+.node__content .field--name-field-recipe-image img {
+  display: block;
+  width: 100%;
+}
+.node__content .field__label {
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 360px) {
+  .node__content .field__label {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 410px) {
+  .node__content .field__label {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 460px) {
+  .node__content .field__label {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 510px) {
+  .node__content .field__label {
+    font-size: 1.7em;
+  }
+}
+@media screen and (min-width: 560px) {
+  .node__content .field__label {
+    font-size: 1.8em;
+  }
+}
+@media screen and (min-width: 610px) {
+  .node__content .field__label {
+    font-size: 1.9em;
+  }
+}
+@media screen and (min-width: 660px) {
+  .node__content .field__label {
+    font-size: 2.0em;
+  }
+}
+@media screen and (min-width: 710px) {
+  .node__content .field__label {
+    font-size: 2.1em;
+  }
+}
+@media screen and (min-width: 760px) {
+  .node__content .field__label {
+    font-size: 2.2em;
+  }
+}
+@media screen and (min-width: 810px) {
+  .node__content .field__label {
+    font-size: 2.3em;
+  }
+}
+@media screen and (min-width: 860px) {
+  .node__content .field__label {
+    font-size: 2.4em;
+  }
+}
+@media screen and (min-width: 910px) {
+  .node__content .field__label {
+    font-size: 2.5em;
+  }
+}
+@media screen and (min-width: 960px) {
+  .node__content .field__label {
+    font-size: 2.6em;
+  }
+}
+@media screen and (min-width: 1010px) {
+  .node__content .field__label {
+    font-size: 2.7em;
+  }
+}
+@media screen and (min-width: 1060px) {
+  .node__content .field__label {
+    font-size: 2.8em;
+  }
+}
+@media screen and (min-width: 1110px) {
+  .node__content .field__label {
+    font-size: 2.9em;
+  }
+}
+@media screen and (min-width: 1160px) {
+  .node__content .field__label {
+    font-size: 3.0em;
+  }
+}
+@media screen and (min-width: 1210px) {
+  .node__content .field__label {
+    font-size: 3.1em;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .node__content .field__label {
+    font-size: 3.2em;
+  }
+}
+@media screen and (min-width: 1310px) {
+  .node__content .field__label {
+    font-size: 3.3em;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .node__content .field__label {
+    font-size: 3.4em;
+  }
+}
+.node__content .field--name-field-servings {
+  margin-bottom: 20px;
+}
+.node__content .field--name-field-servings .field__items, .node__content .field--name-field-servings .field__label, .node__content .field--name-field-calories-per-serving .field__items, .node__content .field--name-field-calories-per-serving .field__label, .node__content .field--name-field-phase .field__items, .node__content .field--name-field-phase .field__label {
+  margin-bottom: 0;
+}
+@media screen and (min-width: 360px) {
+  .node__content .field--name-field-servings .field__items, .node__content .field--name-field-servings .field__label, .node__content .field--name-field-calories-per-serving .field__items, .node__content .field--name-field-calories-per-serving .field__label, .node__content .field--name-field-phase .field__items, .node__content .field--name-field-phase .field__label {
+    font-size: 1.1em;
+  }
+}
+@media screen and (min-width: 410px) {
+  .node__content .field--name-field-servings .field__items, .node__content .field--name-field-servings .field__label, .node__content .field--name-field-calories-per-serving .field__items, .node__content .field--name-field-calories-per-serving .field__label, .node__content .field--name-field-phase .field__items, .node__content .field--name-field-phase .field__label {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 460px) {
+  .node__content .field--name-field-servings .field__items, .node__content .field--name-field-servings .field__label, .node__content .field--name-field-calories-per-serving .field__items, .node__content .field--name-field-calories-per-serving .field__label, .node__content .field--name-field-phase .field__items, .node__content .field--name-field-phase .field__label {
+    font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 510px) {
+  .node__content .field--name-field-servings .field__items, .node__content .field--name-field-servings .field__label, .node__content .field--name-field-calories-per-serving .field__items, .node__content .field--name-field-calories-per-serving .field__label, .node__content .field--name-field-phase .field__items, .node__content .field--name-field-phase .field__label {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 560px) {
+  .node__content .field--name-field-servings .field__items, .node__content .field--name-field-servings .field__label, .node__content .field--name-field-calories-per-serving .field__items, .node__content .field--name-field-calories-per-serving .field__label, .node__content .field--name-field-phase .field__items, .node__content .field--name-field-phase .field__label {
+    font-size: 1.5em;
+  }
+}
+.node__content .field--name-field-phase {
+  background: #9E599E;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 20px;
+  padding: 8px 10px;
+}
+@media screen and (min-width: 360px) {
+  .node__content .field--name-field-phase {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 410px) {
+  .node__content .field--name-field-phase {
+    font-size: 1.1em;
+  }
+}
+@media screen and (min-width: 460px) {
+  .node__content .field--name-field-phase {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 510px) {
+  .node__content .field--name-field-phase {
+    font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 560px) {
+  .node__content .field--name-field-phase {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 610px) {
+  .node__content .field--name-field-phase {
+    font-size: 1.5em;
+  }
+}
+
+label[for=edit-field-category-value] {
+  background: #ffffff;
+  display: block;
+  overflow: hidden;
+  padding: 10px;
+  color: #678F00;
+  text-transform: lowercase;
+  border: 1px solid;
+  cursor: pointer;
+}
+@media screen and (min-width: 360px) {
+  label[for=edit-field-category-value] {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 410px) {
+  label[for=edit-field-category-value] {
+    font-size: 1.1em;
+  }
+}
+@media screen and (min-width: 460px) {
+  label[for=edit-field-category-value] {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 510px) {
+  label[for=edit-field-category-value] {
+    font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 560px) {
+  label[for=edit-field-category-value] {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 610px) {
+  label[for=edit-field-category-value] {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 660px) {
+  label[for=edit-field-category-value] {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 710px) {
+  label[for=edit-field-category-value] {
+    font-size: 1.7em;
+  }
+}
+@media screen and (min-width: 760px) {
+  label[for=edit-field-category-value] {
+    font-size: 1.8em;
+  }
+}
+
+label[for=edit-field-category-value]:hover {
+  background: #678F00;
+  color: #ffffff;
+}
+
+label[for=edit-field-food-type-value] {
+  background: #ffffff;
+  display: block;
+  overflow: hidden;
+  padding: 10px;
+  color: #9E599E;
+  text-transform: lowercase;
+  border: 1px solid;
+  cursor: pointer;
+}
+@media screen and (min-width: 360px) {
+  label[for=edit-field-food-type-value] {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 410px) {
+  label[for=edit-field-food-type-value] {
+    font-size: 1.1em;
+  }
+}
+@media screen and (min-width: 460px) {
+  label[for=edit-field-food-type-value] {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 510px) {
+  label[for=edit-field-food-type-value] {
+    font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 560px) {
+  label[for=edit-field-food-type-value] {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 610px) {
+  label[for=edit-field-food-type-value] {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 660px) {
+  label[for=edit-field-food-type-value] {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 710px) {
+  label[for=edit-field-food-type-value] {
+    font-size: 1.7em;
+  }
+}
+@media screen and (min-width: 760px) {
+  label[for=edit-field-food-type-value] {
+    font-size: 1.8em;
+  }
+}
+
+label[for=edit-field-food-type-value]:hover {
+  background: #9E599E;
+  color: #ffffff;
+}
+
+.page-nutrimost-phase2-recipes h1, .section-nutrimost-phase4-recipes h1, .section-nutrimost-beyond-recipes h1 {
+  float: left;
+  margin-right: 2%;
+}
+
+.views-exposed-form .views-exposed-widget {
+  float: left;
+  padding: 0 .5em 0 0;
+}
+
+#edit-field-category-value-wrapper .views-widget {
+  position: absolute;
+  width: 25%;
+}
+
+#edit-field-food-type-value-wrapper .views-widget {
+  position: absolute;
+  width: 25%;
+}
+
+.form-item-field-food-type-value {
+  display: none;
+}
+
+.form-item-field-category-value {
+  display: none;
+}
+
+.form-item-field-category-value.open {
+  display: block;
+}
+.form-item-field-category-value.open a {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background: #678F00;
+}
+.form-item-field-category-value.open a:hover {
+  border: 1px solid #678F00;
+}
+.form-item-field-category-value.open .selected a {
+  background: #ffffff;
+  border: 1px solid #678F00;
+  color: #678F00;
+}
+
+.form-item-field-food-type-value.open {
+  display: block;
+}
+.form-item-field-food-type-value.open a {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background: #9E599E;
+}
+.form-item-field-food-type-value.open a:hover {
+  border: 1px solid #9E599E;
+}
+.form-item-field-food-type-value.open .selected a {
+  background: #ffffff;
+  border: 1px solid #9E599E;
+  color: #9E599E;
+}
+
+.view-filters {
+  clear: right;
+}
+.view-filters a {
+  padding: 10px;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.view-recipes .view-content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: wrap;
+  -moz-flex-flow: wrap;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+}
+.view-recipes .view-content .views-row {
+  clear: both;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #BFD01E;
+  padding-bottom: 30px;
+  width: 49%;
+  width: 30%;
+  width: 24%;
+}
+.view-recipes .view-content .views-row .views-field-title {
+  padding: 10px 0 10px 0;
+}
+@media screen and (min-width: 360px) {
+  .view-recipes .view-content .views-row .views-field-title a {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 410px) {
+  .view-recipes .view-content .views-row .views-field-title a {
+    font-size: 1.1em;
+  }
+}
+@media screen and (min-width: 460px) {
+  .view-recipes .view-content .views-row .views-field-title a {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 510px) {
+  .view-recipes .view-content .views-row .views-field-title a {
+    font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 560px) {
+  .view-recipes .view-content .views-row .views-field-title a {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 610px) {
+  .view-recipes .view-content .views-row .views-field-title a {
+    font-size: 1.5em;
+  }
+}
+
+input#edit-search-block-form--2 {
+  width: 64%;
+  padding: 10px;
+}
+
+input#edit-submit {
+  background: #9E599E;
+  border: 2px solid #9E599E;
+  color: #ffffff;
+  float: right;
+  padding: 10px;
+  width: 35%;
+}
+
+html.js .form-autocomplete {
+  background-image: none;
+  background-repeat: no-repeat;
+}
+
+.ui-theme-basic-green.ui-autocomplete-input {
+  background-image: none;
+  background-repeat: no-repeat;
+}
+
+.ui-theme-basic-green.ui-autocomplete-loading {
+  background-image: none;
+  background-repeat: no-repeat;
+}
+
+/* Static View-only Star Version */
+.fivestar-hearts div.fivestar-widget-static .star {
+  width: 50px;
+  height: 50px;
+  background: url(../images/heart.png) no-repeat 0 0px;
+}
+
+form.fivestar-widget div.description {
+  margin: 20px;
+  display: block;
+  float: right;
+}
+
+.fivestar-hearts div.fivestar-widget-static .star span.on {
+  background: url(../images/heart.png) no-repeat 0 -120px;
+}
+
+.fivestar-hearts div.fivestar-widget-static .star span.off {
+  background: url(../images/heart.png) no-repeat 0 0;
+}
+
+/* Javascript Star Version */
+.fivestar-hearts div.fivestar-widget .cancel,
+.fivestar-hearts div.fivestar-widget .star {
+  width: 50px;
+  height: 50px;
+}
+
+.fivestar-hearts div.fivestar-widget .cancel,
+.fivestar-hearts div.fivestar-widget .cancel a {
+  background: none;
+}
+
+.fivestar-hearts div.fivestar-widget .star,
+.fivestar-hearts div.fivestar-widget .star a {
+  background: url(../images/heart.png) no-repeat 0 0;
+}
+
+.fivestar-hearts div.fivestar-widget div.on a {
+  background-position: 0 -60px;
+}
+
+.fivestar-hearts div.fivestar-widget div.hover a,
+.fivestar-hearts div.rating div a:hover {
+  background-position: 0 -120px;
+}
+
+.header {
+  color: #9E599E;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+}
+@media screen and (min-width: 360px) {
+  .header a {
+    font-size: 2.6em;
+  }
+}
+@media screen and (min-width: 410px) {
+  .header a {
+    font-size: 2.7em;
+  }
+}
+@media screen and (min-width: 460px) {
+  .header a {
+    font-size: 2.8em;
+  }
+}
+@media screen and (min-width: 510px) {
+  .header a {
+    font-size: 2.9em;
+  }
+}
+@media screen and (min-width: 560px) {
+  .header a {
+    font-size: 3.0em;
+  }
+}
+@media screen and (min-width: 610px) {
+  .header a {
+    font-size: 3.1em;
+  }
+}
+@media screen and (min-width: 660px) {
+  .header a {
+    font-size: 3.2em;
+  }
+}
+@media screen and (min-width: 710px) {
+  .header a {
+    font-size: 3.3em;
+  }
+}
+@media screen and (min-width: 760px) {
+  .header a {
+    font-size: 3.4em;
+  }
+}
+@media screen and (min-width: 810px) {
+  .header a {
+    font-size: 3.5em;
+  }
+}
+@media screen and (min-width: 860px) {
+  .header a {
+    font-size: 3.6em;
+  }
+}
+@media screen and (min-width: 910px) {
+  .header a {
+    font-size: 3.7em;
+  }
+}
+@media screen and (min-width: 960px) {
+  .header a {
+    font-size: 3.8em;
+  }
+}
+@media screen and (min-width: 1010px) {
+  .header a {
+    font-size: 3.9em;
+  }
+}
+@media screen and (min-width: 1060px) {
+  .header a {
+    font-size: 4.0em;
+  }
+}
+@media screen and (min-width: 1110px) {
+  .header a {
+    font-size: 4.1em;
+  }
+}
+@media screen and (min-width: 1160px) {
+  .header a {
+    font-size: 4.2em;
+  }
+}
+@media screen and (min-width: 1210px) {
+  .header a {
+    font-size: 4.3em;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .header a {
+    font-size: 4.4em;
+  }
+}
+@media screen and (min-width: 1310px) {
+  .header a {
+    font-size: 4.5em;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .header a {
+    font-size: 4.6em;
+  }
+}
+.header span {
+  color: #678F00;
+}

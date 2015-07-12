@@ -1,4 +1,4 @@
-name = recipes
+name = fish
 description = Please provide a description for your theme.
 base theme = omega
 screenshot = screenshot.png
@@ -8,15 +8,15 @@ core = 7.x
 ; ========================================
 ; Stylesheets
 ; ========================================
-stylesheets[all][] = css/recipes.normalize.css
-stylesheets[all][] = css/recipes.hacks.css
-stylesheets[all][] = css/recipes.styles.css
-stylesheets[all][] = css/recipes.no-query.css
+stylesheets[all][] = css/fish.normalize.css
+stylesheets[all][] = css/fish.hacks.css
+stylesheets[all][] = css/fish.styles.css
+stylesheets[all][] = css/fish.no-query.css
 
 ; ========================================
 ; Scripts
 ; ========================================
-scripts[] = js/recipes.behaviors.js
+scripts[] = js/fish.behaviors.js
 scripts[] = js/menu.js
 
 ; ========================================
